@@ -1,5 +1,18 @@
 package sorting;
 
+
+/*
+• “IN PLACE” sorting algorithm
+Worst case
+– T(n) = T(n-1) + O(n)
+– T(n) = O(n^2)
+
+Average case
+– T(n) <= 2T(n/2) + O(n)
+– T(n) = O(n log n)
+ */
+
+
 import java.util.Arrays;
 
 public class QuickSort {
@@ -30,7 +43,7 @@ public class QuickSort {
             swap(arr, i, j);
             }
         }
-        swap(arr, i+1, right);
+        swap(arr, i+1, right); // when small elements in oneside and large elments on other side, i points where all small elements ends , so just put it after that.
         return i;
     }
 
