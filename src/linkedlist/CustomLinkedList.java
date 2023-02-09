@@ -1,11 +1,5 @@
 package linkedlist;
-//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
 
-
-import com.sun.org.apache.xpath.internal.objects.XNull;
-import jdk.internal.org.objectweb.asm.util.CheckAnnotationAdapter;
-
-// LL has basically 3 months  -- push
 public class CustomLinkedList {
 //head of the list, property is having no data and point towards the null.
     Node head;
