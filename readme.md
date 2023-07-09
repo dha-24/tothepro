@@ -50,3 +50,22 @@ _where using recursion may not be the best choice:_
     }
 }
 ```
+**Notations in Algorithms**
+---
+The Big O notation is used to describe the asymptotic behavior of an algorithm
+
+Some common Big O notations:
+<u>(It's important to note that the Big O notation describes the upper bound of the algorithm's complexity, focusing on the worst-case scenario. )</u>
+
+1. O(1) - Constant time: The algorithm's runtime or space requirements are constant and do not depend on the input size.
+2. O(log n) - Logarithmic time: The algorithm's runtime or space requirements grow logarithmically with the input size.
+   1. Commonly associated with algorithms that divide the problem space in half at each step, such as binary search.
+3. O(n) - Linear time: grow linearly with the input size.
+4. O(n log n) - Linearithmic time: grow in a combination of linear and logarithmic terms
+   1. Commonly associated with efficient sorting algorithms like merge sort and quicksort.
+5. O(n^2) - Quadratic time: grow quadratically with the input size
+   1. associated with nested loops or algorithms that process each element in the input multiple times.
+6. O(2^n) - Exponential time: grow exponentially with the input size
+   1. Commonly associated with algorithms that involve exhaustive search or recursion with multiple branches
+7. O(n!) - Factorial time: grow factorially with the input size
+   1.  Commonly associated with algorithms that generate all possible permutations or combinations.
